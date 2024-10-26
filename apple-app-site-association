@@ -1,11 +1,15 @@
 {
-    "applinks": {
-        "apps": [],
-        "details": [
-            {
-                "appID": "X496RVQDTB. mxl.testapp",
-                "paths": [ "*" ]
-            }
+  "applinks" : {
+    "apps" : [
+
+    ],
+    "details" : [
+      {
+        "appID" : "X496RVQDTB.mxl.testapp",
+        "paths" : [
+          "*"
         ]
-    }
+      }
+    ]
+  }
 }
