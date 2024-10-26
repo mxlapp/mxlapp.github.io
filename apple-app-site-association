@@ -7,7 +7,7 @@
       {
         "appID" : "T925MZ8WKB.eveningBreeze.eveningBreeze",
         "paths" : [
-          "*"
+          "/wakeupiOS/eveningBreeze/*",
         ]
       }
     ]
