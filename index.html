@@ -1,11 +1,39 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh">
 <head>
     <meta charset="UTF-8">
-    <title>Universal Link Example</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>晚风拉端页示例</title>
+    <script>
+        function getOrderId() {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get('orderId');
+        }
+
+        function launchAndroid() {
+            const orderId = getOrderId();
+            if (orderId) {
+                const androidUrl = `ifeng://www.wanfeng.com?type=callListener&orderId=${orderId}`;
+                window.location.href = androidUrl;
+            } else {
+                alert('未找到 orderId 参数');
+            }
+        }
+
+        function launchIOS() {
+            const orderId = getOrderId();
+            if (orderId) {
+                const iosUrl = `https://juben.ifeng.com/proxy/http://party.ifeng.com/wakeupiOS/eveningBreeze/call?type=callListener&orderId=${orderId}`;
+                window.location.href = iosUrl;
+            } else {
+                alert('未找到 orderId 参数');
+            }
+        }
+    </script>
 </head>
 <body>
-    <a href="https://mxlapp.github.io/wakeupiOS/eveningBreeze?action=callListner&orderId=123456">Open App</a>
+<h1>晚风拉端页示例</h1>
+<button onclick="launchAndroid()">拉起 Android</button>
+<button onclick="launchIOS()">拉起 iOS</button>
 </body>
 </html>
