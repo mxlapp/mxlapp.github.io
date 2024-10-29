@@ -23,7 +23,7 @@
         function launchIOS() {
             const orderId = getOrderId();
             if (orderId) {
-                const iosUrl = `https://juben.ifeng.com/proxy/http://party.ifeng.com/wakeupiOS/eveningBreeze/call?type=callListener&orderId=${orderId}`;
+                const iosUrl = `https://mxlapp.github.io/wakeupiOS/eveningBreeze/call?type=callListener&orderId=${orderId}`;
                 window.location.href = iosUrl;
             } else {
                 alert('未找到 orderId 参数');
