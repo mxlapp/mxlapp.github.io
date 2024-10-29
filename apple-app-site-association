@@ -5,6 +5,97 @@
     ],
     "details" : [
       {
+        "appID" : "T925MZ8WKB.ifengNews",
+        "paths" : [
+          "\/wakeupiOS\/ifengnews\/*",
+          "\/qq_conn\/101053114\/*"
+        ]
+      },
+      {
+        "appID" : "T925MZ8WKB.com.ifengtv.ifengPlayer",
+        "paths" : [
+          "\/wakeupiOS\/video\/*",
+          "\/qq_conn\/1101043412\/*"
+        ]
+      },
+      {
+        "appID" : "UNY4KWE8NR.com.bjiao.video",
+        "paths" : [
+          "\/wakeupiOS\/bjplayer\/*",
+          "\/qq_conn\/101053114\/*"
+        ]
+      },
+      {
+        "appID" : "T925MZ8WKB.com.ifeng.ifengnews1",
+        "paths" : [
+          "\/wakeupiOS\/ifengnewsgold\/*",
+          "\/qq_conn\/101053114\/*"
+        ]
+      },
+      {
+        "appID" : "EFH38368XS.com.ifeng.olympics",
+        "paths" : [
+          "\/wakeupiOS\/ifengnewsredpack\/*",
+          "\/qq_conn\/101053114\/*"
+        ]
+      },
+      {
+        "appID" : "T925MZ8WKB.ifengnewsexplore",
+        "paths" : [
+          "\/wakeupiOS\/ifengnewsexplore\/*",
+          "\/qq_conn\/1105554815\/*"
+        ]
+      },
+      {
+        "appID" : "T925MZ8WKB.ifengnewsprofessional",
+        "paths" : [
+          "\/wakeupiOS\/ifengnewsprofessional\/*",
+          "\/qq_conn\/101053114\/*"
+        ]
+      },
+      {
+        "appID" : "EFH38368XS.ifengnewsprofessional",
+        "paths" : [
+          "\/wakeupiOS\/ifengnewsprofessional\/*",
+          "\/qq_conn\/101053114\/*"
+        ]
+      },
+      {
+        "appID" : "EFH38368XS.com.ifeng.ifengnews1",
+        "paths" : [
+          "\/wakeupiOS\/ifengnewsgold\/*",
+          "\/qq_conn\/101053114\/*"
+        ]
+      },
+      {
+        "appID" : "EFH38368XS.ifengNews",
+        "paths" : [
+          "\/wakeupiOS\/ifengnews\/*",
+          "\/qq_conn\/101053114\/*"
+        ]
+      },
+      {
+        "appID" : "EFH38368XS.com.ifengtv.ifengPlayer",
+        "paths" : [
+          "\/wakeupiOS\/video\/*",
+          "\/qq_conn\/1101043412\/*"
+        ]
+      },
+      {
+        "appID" : "EFH38368XS.ifengnewsexplore",
+        "paths" : [
+          "\/wakeupiOS\/ifengnewsexplore\/*",
+          "\/qq_conn\/1105554815\/*"
+        ]
+      },
+      {
+        "appID" : "T925MZ8WKB.ifengnewsextreme",
+        "paths" : [
+          "\/wakeupiOS\/ifengnewsextreme\/*",
+          "\/qq_conn\/101053114\/*"
+        ]
+      },
+      {
         "appID" : "T925MZ8WKB.eveningBreeze.eveningBreeze",
         "paths" : [
           "\/wakeupiOS\/eveningBreeze\/*"
